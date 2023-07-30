@@ -14,6 +14,7 @@ else {
       <button type="submit">Send</button>
     </div>
  </form>
-<span>
+ 
+<form>
 	<?php if (isset($message)) echo $message;?>
-</span>
+</form>
