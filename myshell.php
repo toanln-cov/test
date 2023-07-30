@@ -11,9 +11,9 @@ else {
     <div class="container">
       <label for="cmd"><b>COMMAND</b></label>
       <input type="text" placeholder="Enter Command Here" name="command" required>
-      <button type="submit">Send</button>
-    <span>
-    	<?php if (isset($message)) echo $message;?>
-    </span>
+      <button type="submit">Send</button>
     </div>
  </form>
+<span>
+	<?php if (isset($message)) echo $message;?>
+</span>
